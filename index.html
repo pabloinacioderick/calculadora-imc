@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Seu Nome</title>
+    <style>
+        /* ======== ESTILO GERAL ======== */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #fff;
+            padding: 40px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #0078d7;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-right: 30px;
+            border: 3px solid #0078d7;
+            object-fit: cover;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #0078d7;
+            font-size: 2em;
+        }
+
+        header p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .info-contato {
+            margin-top: 10px;
+            font-size: 0.95em;
+        }
+
+        .info-contato a {
+            color: #0078d7;
+            text-decoration: none;
+        }
+
+        .info-contato a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            border-left: 5px solid #0078d7;
+            padding-left: 10px;
+            color: #0078d7;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.85em;
+            color: #777;
+            margin-top: 40px;
+        }
+
+        /* ======== BARRA LATERAL ======== */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #0078d7;
+            color: #fff;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        /* ======== RESPONSIVO ======== */
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header img {
+                margin: 0 0 20px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://i.imgur.com/0y0F9lZ.png" alt="Foto de perfil">
+            <div>
+                <h1>Seu Nome Completo</h1>
+                <p>Desenvolvedor Web | Designer | Estudante de Tecnologia</p>
+                <div class="info-contato">
+                    📞 (99) 99999-9999 | 
+                    📧 <a href="mailto:seuemail@email.com">seuemail@email.com</a> |
+                    🌐 <a href="https://linkedin.com/in/seuperfil" target="_blank">LinkedIn</a> |
+                    💻 <a href="https://github.com/seuperfil" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>Sou um profissional apaixonado por tecnologia e inovação, com experiência em desenvolvimento web e design. Busco desafios que me permitam aplicar meus conhecimentos e crescer profissionalmente em um ambiente dinâmico e colaborativo.</p>
+        </section>
+
+        <section>
+            <h2>Experiência Profissional</h2>
+            <ul>
+                <li>
+                    <strong>Desenvolvedor Front-End</strong> — Empresa TechSol (2023 - Atual)<br>
+                    Desenvolvimento e manutenção de interfaces modernas e responsivas utilizando React, JavaScript e CSS.
+                </li>
+                <li>
+                    <strong>Estagiário de TI</strong> — Empresa InovaTI (2021 - 2023)<br>
+                    Suporte técnico, automação de processos internos e desenvolvimento de pequenas aplicações web.
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Formação Acadêmica</h2>
+            <ul>
+                <li><strong>Análise e Desenvolvimento de Sistemas</strong> — Universidade Exemplo (2020 - 2023)</li>
+                <li><strong>Curso Técnico em Informática</strong> — Escola Técnica Modelo (2018 - 2019)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Habilidades</h2>
+            <div class="skills">
+                <span class="skill">HTML5</span>
+                <span class="skill">CSS3</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">React</span>
+                <span class="skill">Node.js</span>
+                <span class="skill">Git/GitHub</span>
+                <span class="skill">UI/UX</span>
+                <span class="skill">MySQL</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>Idiomas</h2>
+            <ul>
+                <li>Português — Nativo</li>
+                <li>Inglês — Intermediário</li>
+                <li>Espanhol — Básico</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>© 2025 Seu Nome — Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
